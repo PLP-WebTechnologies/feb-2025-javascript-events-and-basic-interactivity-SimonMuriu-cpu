@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Event Playground</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>🎯 JavaScript Event Playground</h1>
+
+  <!-- Event Handling Section -->
+  <section>
+    <h2>Event Handling</h2>
+    <button id="clickBtn">Click Me</button>
+    <div id="hoverBox">Hover Over Me</div>
+    <input type="text" id="keypressInput" placeholder="Type something..." />
+    <button id="secretBtn">Double-click Me!</button>
+  </section>
+
+  <!-- Interactive Elements Section -->
+  <section>
+    <h2>Interactive Elements</h2>
+    <button id="colorChangeBtn">Change My Color</button>
+
+    <div id="imageGallery">
+    <img id="galleryImage" src="./images/ChatGPT Man Image.png" alt="Gallery Image">      <button id="nextImage">Next Image</button>
+    </div>
+
+    <div class="tabs">
+      <button class="tabBtn" data-tab="tab1" title="Click to see what's inside!">Tab 1</button>
+      <button class="tabBtn" data-tab="tab2" title="Click to see what's inside!">Tab 2</button>
+      <div id="tab1" class="tabContent">
+        <h3>Tab 1 Content</h3>
+        <p>This is the detailed content for Tab 1. Add more information here as needed.</p>
+      </div>
+      <div id="tab2" class="tabContent hidden">
+        <h3>Tab 2 Content</h3>
+        <p>This is the detailed content for Tab 2. Add more information here as needed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form Validation Section -->
+  <section>
+    <h2>Form Validation</h2>
+    <form id="signupForm">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit">Submit</button>
+      <p id="formFeedback"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

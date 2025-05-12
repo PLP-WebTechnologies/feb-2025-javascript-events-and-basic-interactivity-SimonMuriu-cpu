@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f2f2f2;
+  }
+  
+  section {
+    margin-bottom: 2em;
+    background: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    padding: 0.5em 1em;
+    margin: 0.5em 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #hoverBox {
+    padding: 20px;
+    background-color: lightblue;
+    margin: 10px 0;
+  }
+  
+  #colorChangeBtn {
+    background-color: lightgreen;
+  }
+  
+  #imageGallery img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+/* Style for the tab buttons */
+.tabBtn {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tabBtn:hover {
+  background-color: #136d91;
+  color: #333;
+}
+
+/* Style for the tab content */
+.tabContent {
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 0.5em;
+}
+
+/* Utility class for hidden elements */
+.hidden {
+  display: none;
+}
+
+/* Input field styles */
+input {
+  display: block;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  width: 100%;
+  max-width: 300px;
+}
+
+
